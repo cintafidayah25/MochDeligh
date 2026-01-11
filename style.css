@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #faf7f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #f5e6dc;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* About */
+.about {
+    padding: 60px 15%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Products */
+.products {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 280px;
+    background: white;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    margin: 15px 0 10px;
+}
+
+.product-card p {
+    padding: 0 15px 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #e9d6c8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
